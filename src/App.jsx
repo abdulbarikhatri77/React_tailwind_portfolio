@@ -1,13 +1,15 @@
 
 import './App.css'
+import Headbar from "./Header/Headbar"
 
 function App() {
   
 
   return (
-   <div className='bg-slate-800 text-4xl'>
-    Abdul bari khatri portfolio
-   </div>
+   
+    <div className="bg-gray-100">
+      <Headbar/>
+  </div>
 
   )
 }
