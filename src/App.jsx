@@ -1,18 +1,15 @@
-
-import './App.css'
-import MainBody from './body components/MainBody'
+import "./App.css";
+import Headbar from "./Header/Headbar";
+import MainBody from "./body components/MainBody";
 
 function App() {
-  
-
   return (
-   <div>
+    <div className="bg-gray-100">
+      <Headbar />
 
-    <MainBody/>
-  
-   </div>
-
-  )
+      <MainBody />
+    </div>
+  );
 }
 
-export default App
+export default App;
